@@ -4,12 +4,19 @@ upcoming:
     dev:
       infrastructure:
         - Updates to Swift 3 / Xcode 8 - ash/orta
+        - Removes the Apple Watch app - orta
         - Remove extra xapp fetching and old home feed - maxim
+        - Attempts to fix a crash that would occur by sending a message to a search VC that it doesn’t implement - alloy
+
     user_facing:
       - Fixes an intermittent crash on the live interface - ash
-      - Attempts to fix a crash that would occur by sending a message to a search VC that it doesn’t implement - alloy
       - Refine existing queries on the Gene Page - orta
-
+      - Adds ability to view echo configuration used by app - ash
+      - Moves live sales away from using end_at gravity field - ash
+      - Jump to current lot CTA only visible once in the LAI interface, instead of once per lot - ash
+      - Fixes issue where links in auction descriptions would lead nowhere when tapped - ash
+      - Countdowns to live auctions show the time until live bidding opens, instead of when the sale ends - ash
+      - Fixes a strange text-flashing issue on auction views - ash
 
 releases:
   - version: 3.0.2
